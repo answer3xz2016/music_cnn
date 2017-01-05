@@ -1,0 +1,21 @@
+logDebug = False         # whether to print some debug info
+
+myMuseBase = '/Users/joe.xing/Desktop/work/muse'
+myKeyDir = myMuseBase + '/WebUI/keys'
+myTrainedModel = myMuseBase + '/TrainedModels'
+myPostgresKey = myKeyDir + "/.credentials.cred"
+myPostgresKeyXimalaya = myKeyDir + "/.credentials_ximalaya.cred"
+sevendigitalKeyFile = myKeyDir + "/7digital.txt"
+sevendigitalKey = ''
+myBestCFModel_Umf = myTrainedModel + "/CCF-muse-1M-step8_rank_10_10_lambda_1.0_1.0_alpha_0.0001_0.0001_iterations_50_50.log_Umf.npy"
+myBestCFModel_Inf = myTrainedModel + "/CCF-muse-1M-step8_rank_10_10_lambda_1.0_1.0_alpha_0.0001_0.0001_iterations_50_50.log_Inf.npy"
+
+myBestImplicitCFModel_Umf = myTrainedModel + "/CCF-muse-MSD-step7_rank_15_15_lambda_1.0_1.0_alpha_5e-07_5e-07_iterations_50_50.log_Umf.npy"
+myBestImplicitCFModel_Inf = myTrainedModel + "/CCF-muse-MSD-step7_rank_15_15_lambda_1.0_1.0_alpha_5e-07_5e-07_iterations_50_50.log_Inf.npy"
+
+
+
+myXimalayaKeyDir = myMuseBase + '/MuseMusicVendorAPI/keys'
+myXimalayaKeyFile = myXimalayaKeyDir + '/ximalaya_key.txt'
+myXimalayaSignatureGeneratorDir = myMuseBase + '/MuseMusicVendorAPI/Signature_Generator'
+myMacAddress = '98:01:a7:95:ff:dd'
