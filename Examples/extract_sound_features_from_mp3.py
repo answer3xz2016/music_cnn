@@ -11,7 +11,7 @@ from pylab import *
 import random
 
 
-def dumpToBinaryGenre(dataFolder='/a/joe_data/MIR_Dataset/Music_Audio_Benchmark_Data_Set/'): 
+def dumpToBinaryGenre(dataFolder='/fast_data1/MIR_dataset/Music_Audio_Benchmark_Data_Set/'): 
     genres = []
     for root, dirs, files in os.walk(dataFolder):
         if not dirs:
