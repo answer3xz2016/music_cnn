@@ -2,15 +2,15 @@
 ========================================================
 ========================================================
 
-Muse 缪斯 project
+Music CNN project
 Author: Dr. Zhou Xing 
-Team: Data Science
+
 
 ========================================================
 ========================================================
 
 
-This is the production code for the Muse project, which
+This is the production code for the Music CNN project, which
 includes various models such as C.C.F, training of the
 model, making inference or predictions. Web UI service
 REST API to provide recommendations.
@@ -109,12 +109,12 @@ Some instructions of example use cases:
 3. Plotting cost function learning curve
 
 4. Browsing MillionSong database:
-   - git clone git@nextev.githost.io:data-science/muse.git
+   - git clone git@github.com:answer3xz2016/music_cnn.git
    - cd muse
    - switch to dev branch : git checkout dev
    - point myMuseBase to your file system (Muse home directory): edit MuseUtil/museConfig.py myMuseBase='/home/ec2-user/muse' for example 
    - install Muse: python setup.py install
    - run example script to browse data in RDS: python Examples/browse_million_song.py
 
-5. Plot the clutering of Ximalaya podcast items using content-based model where content is extracted from text features.
+5. Plot the clutering of items using content-based model where content is extracted from text features.
    - python MuseModels/ContentBased.py , this script will load word2vec embeddings and perform dimensionality reduction and plot the distribution of musics in the latent space
